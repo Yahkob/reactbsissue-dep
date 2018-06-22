@@ -1,5 +1,5 @@
 import {Tabs, Tab} from 'react-bootstrap';
-export default ReactBootstrapComponent = () => (
+const ReactBootstrapComponent = () => (
     <Tabs>
         {/*<Tab eventKey={1} title="Destination configurations"><DestinationsView {...this.props}/></Tab>*/}
         <Tab eventKey={1} title="Destination configurations"></Tab>
@@ -7,3 +7,4 @@ export default ReactBootstrapComponent = () => (
         <Tab eventKey={3} title="Onboard to common destinations"></Tab>
     </Tabs>
 )
+export default ReactBootstrapComponent;
