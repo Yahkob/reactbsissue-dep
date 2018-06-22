@@ -12,7 +12,11 @@ module.exports = {
         library: 'main',
         libraryTarget: 'commonjs2'
     },
-
+    resolve: {
+        alias: {
+            'react': path.resolve('node_modules', 'react')
+        }
+    },
     module: {
        rules: [
             {
