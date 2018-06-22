@@ -5,7 +5,7 @@ var webpack = require('webpack');
 module.exports = {
  
     entry: {main: './index.js'},
-
+    mode: 'development',
 
     output: {
         filename: '[name].js',
